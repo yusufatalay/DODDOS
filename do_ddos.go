@@ -94,7 +94,6 @@ func main() {
 	///////////////////
 	if *rcPtr != "" {
 
-
 		IPAddrs, err := getIPAddressses(client, *dtagPtr)
 		if err != nil {
 			fmt.Printf("Error while retrieving IP addresses : %v/n", err)
@@ -368,13 +367,13 @@ func runCommandOnGivenIPAddresses(cmd string, Addresses []string) error {
 // TODO: Be able to define a SSH key to created machine----------------------------------------------------------------------------> DONE
 // TODO: Be able to restart machine------------------------------------------------------------------------------------------------> DONE
 // TODO: Be able to operate created machines via ssh (make them send requests to the target etc.)----------------------------------> DONE
-// TODO: Add this project to github with a proper documentation and add "regrews" as a contributer IMPORTANT
+// TODO: Add this project to github with a proper documentation and add "regrews" as a contributer IMPORTANT-----------------------> DONE
 // TODO: Add a killswitch (commad is "killall -u root")  IMPORTANT
 // TODO: Be able to restart machines with tag name		 IMPORTANT
 // TODO: Be able define ssh key inside of the code		 IMPORTANT
-// TODO: Be able to run scripts on created machines		 IMPORTANT
-// TODO: Be able to see only one machine's output with flag  'logging mechanism' XML
-// TODO: Be able to see all machine's outputs with another flag 'logging mechanism' XML
+// TODO: Be able to run scripts on created machines		 IMPORTANT-----------------------------------------------------------------> DONE (just upload the code to the github and curl from it)
+// TODO: Be able to see only one machine's output with flag  'logging mechanism'
+// TODO: Be able to see all machine's outputs with another flag 'logging mechanism'
 // TODO: Try to make a WEB interface with react
-// TODO: Carry this completed program to "COBRA" framework
-// TODO: Log anomalies happened during execution
+// TODO: Get the bandwith metrics of the all the machines merged together pipe the output to a csv file in the format of (time:bandwith)
+// TODO: Get the output form above and make a graph in matplotlib
