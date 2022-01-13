@@ -21,21 +21,21 @@ $ ssh-keygen -l -E md5 -f ~/.ssh/id_rsa.pub
 
 
 # TODOS
-- [x] Be able to create and boot machines through digital ocean API-------------------------------------------------------------> DONE
-- [x] Creating can be done with OR without tags---------------------------------------------------------------------------------> DONE
-- [x] Deleting can be done with ID or TAG---------------------------------------------------------------------------------------> DONE
-- [x] Be able to delete machine-------------------------------------------------------------------------------------------------> DONE
-- [x] Show machine info (IP, name, id etc.)-------------------------------------------------------------------------------------> DONE
-- [x] Be able to list all droplets or droplets that has same tag----------------------------------------------------------------> DONE
-- [x] Be able to create multiple droplets at once (bind them with a tag)--------------------------------------------------------> DONE
-- [x] Be able to define a SSH key to created machine----------------------------------------------------------------------------> DONE
-- [x] Be able to restart machine------------------------------------------------------------------------------------------------> DONE
-- [x] Be able to operate created machines via ssh (make them send requests to the target etc.)----------------------------------> DONE
-- [x] Add this project to github with a proper documentation and add "regrews" as a contributer IMPORTANT-----------------------> DONE
+- [x] Be able to create and boot machines through digital ocean API
+- [x] Creating can be done with OR without tags
+- [x] Deleting can be done with ID or TAG
+- [x] Be able to delete machine
+- [x] Show machine info (IP, name, id etc.)
+- [x] Be able to list all droplets or droplets that has same tag
+- [x] Be able to create multiple droplets at once (bind them with a tag)
+- [x] Be able to define a SSH key to created machine
+- [x] Be able to restart machine
+- [x] Be able to operate created machines via ssh (make them send requests to the target etc.)
+- [x] Add this project to github with a proper documentation and add "regrews" as a contributer IMPORTANT
 - [ ] Add a killswitch (commad is "killall -u root")  IMPORTANT
 - [ ] Be able to restart machines with tag name		 IMPORTANT
 - [ ] Be able define ssh key inside of the code		 IMPORTANT
-- [X] Be able to run scripts on created machines		 IMPORTANT-----------------------------------------------------------------> DONE (just upload the code to the github and curl from it)
+- [X] Be able to run scripts on created machines		 IMPORTANT (just upload the code to the github and curl from it)
 - [ ] Be able to see only one machine's output with flag  'logging mechanism'
 - [ ] Be able to see all machine's outputs with another flag 'logging mechanism'
 - [ ] Try to make a WEB interface with react
